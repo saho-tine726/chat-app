@@ -1,0 +1,19 @@
+@import "../../../_variables";
+
+.channel {
+  $this: &;
+  margin: 0;
+  &_title {
+    padding: 8px 5px;
+    display: grid;
+    grid-template-columns: 1rem auto;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+    @include hover {
+      background: $pink-hover;
+    }
+  }
+}

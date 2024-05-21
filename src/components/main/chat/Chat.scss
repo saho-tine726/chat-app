@@ -1,0 +1,57 @@
+@import "../../../_variables";
+
+.chat {
+  $this: &;
+  margin: 25px 0 0;
+  padding: 20px;
+  border-radius: 10px;
+  background: $yellow;
+  display: flex;
+  gap: 15px;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+
+  &_img {
+    background: #fff;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+
+    img {
+      aspect-ratio: 1 / 1;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &_content {
+    width: 100%;
+  }
+
+  &_head {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 5px 10px;
+  }
+
+  &_name {
+    font-weight: 700;
+  }
+
+  &_date {
+    color: $gray;
+    font-size: 0.8rem;
+  }
+
+  &_text {
+    margin: 10px 0 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+    width: 100%;
+  }
+}
