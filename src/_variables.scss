@@ -1,0 +1,23 @@
+:root {
+  --header-height: 0px;
+}
+
+@mixin hover {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
+
+$brown: #96423b;
+$blue: #9cc3ff;
+$blue-light: #c1e1dc;
+$pink: #ffccac;
+$pink-light: #fdf3ec;
+$pink-hover: #ffb785;
+$yellow: #ffeb94;
+$yellow-dark: #ffcc96;
+$orange: #fdd475;
+$gray: #777575;
+$txtColor: #333;

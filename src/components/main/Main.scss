@@ -1,0 +1,22 @@
+@import "../../_variables";
+
+.main {
+  width: 75%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+
+  &_chat {
+    padding: 20px;
+    overflow-y: auto;
+    height: calc(100vh - (120px + var(--header-height)));
+
+    & > :first-child {
+      margin-top: 0;
+    }
+
+    & > :nth-child(even) {
+      background: $yellow-dark;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "../../_variables";
+
+.side {
+  width: 25%;
+  height: 100vh;
+  background: $pink;
+
+  &_head {
+    padding: 20px 20px 30px;
+    line-height: 1;
+    background: $brown;
+  }
+  &_title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  &_body {
+    padding: 20px;
+  }
+  &_nameHead {
+    padding-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #333;
+  }
+  &_name {
+    font-weight: 700;
+    font-size: 1.3rem;
+  }
+  &_addChannel {
+    background: $brown;
+    padding: 4px;
+    cursor: pointer;
+    width: 2.2rem !important;
+    height: 2.2rem !important;
+    transition: all 0.4s;
+    color: #fff;
+  }
+  &_channels {
+  }
+}
