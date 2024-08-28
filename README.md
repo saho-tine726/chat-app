@@ -4,7 +4,7 @@
 チャンネルを選んでメッセージを投稿できるチャットアプリです。
 
 ## デモサイト
-https://chat-app-topaz-nu.vercel.app/
+https://chat-app-iota-liart.vercel.app/
 
 ## 使用言語・ライブラリ・フレームワーク・ツール
 <p>
